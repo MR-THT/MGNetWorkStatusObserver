@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MGNetWorkStatusObserver_Example' do
+  pod 'MGNetWorkStatusObserver', :path => '../'
+
+  target 'MGNetWorkStatusObserver_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

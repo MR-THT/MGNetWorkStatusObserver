@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ABBB9B538486428BC9DEB9B5FDF2528 /* Pods-MGNetWorkStatusObserver_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EADCE481C98275D6ADBC1E0001DF7B7C /* Pods-MGNetWorkStatusObserver_Tests-dummy.m */; };
+		0C4CBCAFB159BF8B418AF057DA2FD29C /* Pods-MGNetWorkStatusObserver_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D7F217BB969EA5658A22D217D13230 /* Pods-MGNetWorkStatusObserver_Example-dummy.m */; };
+		0E020B655659940D9A52D0EB1E970AE7 /* MGNetworkStatusObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A700356C1C90D229D54197724186B /* MGNetworkStatusObserver.m */; };
+		12985EA1F6231A77840BA3092723F72D /* MGNetWorkStatusObserver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7815A0BFF7D265734F64B008F19ECF8 /* MGNetWorkStatusObserver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15FC475DF05CEF3178DAB4579A98F54E /* MGNetWorkStatusObserver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83392F5789017FBF54EF478888E7758B /* MGNetWorkStatusObserver-dummy.m */; };
+		66ADC38FC36E74E7F94B321C3F69F828 /* MGNetworkStatusObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 392BA411F9120AE314A72F7BFBEC9527 /* MGNetworkStatusObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844951CACA6B7D859B2ABDB0F41FBFC7 /* MGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8318896EE5F71EC7E7234107FD0519 /* MGReachability.m */; };
+		A5C6F1F0A6369CAAA9711814EDB614A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B3C59CB58B2937BC89B4FF71D36F476E /* Pods-MGNetWorkStatusObserver_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D967559F66DCAEA44A403E89CAEFD51 /* Pods-MGNetWorkStatusObserver_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB69F86C9D8788FCB535EBA4C0961BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D50A0675060C39C8B0C7762BF79BCFDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D7097DA7E086FD30979DC92250ABF2AB /* MGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB189A4BF0B41B35C47FA6E859F8C69 /* MGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF2768B216CB87E918D26C52DA6566B /* Pods-MGNetWorkStatusObserver_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 487645FC18522C22B96667575162F727 /* Pods-MGNetWorkStatusObserver_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB3E6486DBC33DCDEB5A1B0402B6CCD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E7012FC0801672A29EF14832E789763;
+			remoteInfo = MGNetWorkStatusObserver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E5041159AB21EDA19B27CFA9033525 /* Pods-MGNetWorkStatusObserver_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGNetWorkStatusObserver_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		034110D713225E1B9A96F78913CD3951 /* MGNetWorkStatusObserver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MGNetWorkStatusObserver.modulemap; sourceTree = "<group>"; };
+		0E76C171F0FB625233A6DEF5E9BB26AB /* Pods-MGNetWorkStatusObserver_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGNetWorkStatusObserver_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E7D90C984072BCF87A9623B7ADE3986 /* Pods-MGNetWorkStatusObserver_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGNetWorkStatusObserver_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		13BC8D94246C11FFE87CE6822259BDC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C8318896EE5F71EC7E7234107FD0519 /* MGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGReachability.m; path = MGNetWorkStatusObserver/MGReachability.m; sourceTree = "<group>"; };
+		233F90AF9993C00B4F76EE570D78CA39 /* MGNetWorkStatusObserver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGNetWorkStatusObserver.xcconfig; sourceTree = "<group>"; };
+		2EE80A4D29E4CECA9AD4D569F546A201 /* Pods-MGNetWorkStatusObserver_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MGNetWorkStatusObserver_Tests.modulemap"; sourceTree = "<group>"; };
+		34CE94F8A0AE439140AC2AFC8862DB8B /* Pods-MGNetWorkStatusObserver_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGNetWorkStatusObserver_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		392BA411F9120AE314A72F7BFBEC9527 /* MGNetworkStatusObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGNetworkStatusObserver.h; path = MGNetWorkStatusObserver/MGNetworkStatusObserver.h; sourceTree = "<group>"; };
+		3B1ECDFF806F6A76B77AFA1087F36CE1 /* MGNetWorkStatusObserver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGNetWorkStatusObserver.framework; path = MGNetWorkStatusObserver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487645FC18522C22B96667575162F727 /* Pods-MGNetWorkStatusObserver_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGNetWorkStatusObserver_Example-umbrella.h"; sourceTree = "<group>"; };
+		4A0BA61957CAA4FD60438DF5DA274C75 /* Pods-MGNetWorkStatusObserver_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MGNetWorkStatusObserver_Example.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A020CABFFB46A1CBB2903CF0F445857 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D967559F66DCAEA44A403E89CAEFD51 /* Pods-MGNetWorkStatusObserver_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGNetWorkStatusObserver_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7A019CA357EBCE48D283FBB2C5FAC0D6 /* Pods-MGNetWorkStatusObserver_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGNetWorkStatusObserver_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7DB189A4BF0B41B35C47FA6E859F8C69 /* MGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGReachability.h; path = MGNetWorkStatusObserver/MGReachability.h; sourceTree = "<group>"; };
+		83392F5789017FBF54EF478888E7758B /* MGNetWorkStatusObserver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGNetWorkStatusObserver-dummy.m"; sourceTree = "<group>"; };
+		89D7F217BB969EA5658A22D217D13230 /* Pods-MGNetWorkStatusObserver_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGNetWorkStatusObserver_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A080714D91BBD2C4C922097E0003F09A /* Pods-MGNetWorkStatusObserver_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGNetWorkStatusObserver_Example-resources.sh"; sourceTree = "<group>"; };
+		A3A3219D0FF9FD8E374164FE2B99DB94 /* Pods_MGNetWorkStatusObserver_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGNetWorkStatusObserver_Tests.framework; path = "Pods-MGNetWorkStatusObserver_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7050D2EF9CE6B19A378E72C937F47FB /* Pods-MGNetWorkStatusObserver_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGNetWorkStatusObserver_Tests-resources.sh"; sourceTree = "<group>"; };
+		B096A73F83A9D1A47C55CC6F537D983C /* Pods-MGNetWorkStatusObserver_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGNetWorkStatusObserver_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B192B04B6F5281A163735110E72A29A9 /* Pods-MGNetWorkStatusObserver_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGNetWorkStatusObserver_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B68A700356C1C90D229D54197724186B /* MGNetworkStatusObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGNetworkStatusObserver.m; path = MGNetWorkStatusObserver/MGNetworkStatusObserver.m; sourceTree = "<group>"; };
+		C2D6028ACD8098E04906F2EC70EEF13B /* MGNetWorkStatusObserver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGNetWorkStatusObserver-prefix.pch"; sourceTree = "<group>"; };
+		CFD5429CB45CF842F5EEF90EA13B66E8 /* Pods-MGNetWorkStatusObserver_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGNetWorkStatusObserver_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D7815A0BFF7D265734F64B008F19ECF8 /* MGNetWorkStatusObserver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGNetWorkStatusObserver-umbrella.h"; sourceTree = "<group>"; };
+		D7F69772197EDF07E90329DE912D20FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E983F33A28370574037ADB2ECC78B5F3 /* Pods-MGNetWorkStatusObserver_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGNetWorkStatusObserver_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EADCE481C98275D6ADBC1E0001DF7B7C /* Pods-MGNetWorkStatusObserver_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGNetWorkStatusObserver_Tests-dummy.m"; sourceTree = "<group>"; };
+		EFC0D9E910D6D72B3891762E2FE6CF4E /* Pods_MGNetWorkStatusObserver_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGNetWorkStatusObserver_Example.framework; path = "Pods-MGNetWorkStatusObserver_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7566D9407077146EF336FCC8F0B34D7 /* Pods-MGNetWorkStatusObserver_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGNetWorkStatusObserver_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCA997D10A89CD382D70E6B1597043D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB69F86C9D8788FCB535EBA4C0961BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E347DEF1BCA800EAE507CB6E138787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C6F1F0A6369CAAA9711814EDB614A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB6D0761C78C3B7CF88FDF73FF749E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50A0675060C39C8B0C7762BF79BCFDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12931BB1E76D5A302CF88B85674A3F82 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEAC354DB6BB90BE6D0D93CBED5B59EB /* Pods-MGNetWorkStatusObserver_Example */,
+				CEDCF0B6B1EE5C5064201BA7A6093744 /* Pods-MGNetWorkStatusObserver_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14AB9998B3305020B6FD3A628A6AEDC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1ECDFF806F6A76B77AFA1087F36CE1 /* MGNetWorkStatusObserver.framework */,
+				EFC0D9E910D6D72B3891762E2FE6CF4E /* Pods_MGNetWorkStatusObserver_Example.framework */,
+				A3A3219D0FF9FD8E374164FE2B99DB94 /* Pods_MGNetWorkStatusObserver_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D6DEBD67D8FC9887915DFDFD017F734 /* MGNetWorkStatusObserver */ = {
+			isa = PBXGroup;
+			children = (
+				392BA411F9120AE314A72F7BFBEC9527 /* MGNetworkStatusObserver.h */,
+				B68A700356C1C90D229D54197724186B /* MGNetworkStatusObserver.m */,
+				7DB189A4BF0B41B35C47FA6E859F8C69 /* MGReachability.h */,
+				1C8318896EE5F71EC7E7234107FD0519 /* MGReachability.m */,
+				B16F433E31D9358CB51D2AFDAFB662B6 /* Support Files */,
+			);
+			name = MGNetWorkStatusObserver;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		34764CA97230926A544EB05308017095 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D6DEBD67D8FC9887915DFDFD017F734 /* MGNetWorkStatusObserver */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				34764CA97230926A544EB05308017095 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				14AB9998B3305020B6FD3A628A6AEDC3 /* Products */,
+				12931BB1E76D5A302CF88B85674A3F82 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B16F433E31D9358CB51D2AFDAFB662B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7F69772197EDF07E90329DE912D20FA /* Info.plist */,
+				034110D713225E1B9A96F78913CD3951 /* MGNetWorkStatusObserver.modulemap */,
+				233F90AF9993C00B4F76EE570D78CA39 /* MGNetWorkStatusObserver.xcconfig */,
+				83392F5789017FBF54EF478888E7758B /* MGNetWorkStatusObserver-dummy.m */,
+				C2D6028ACD8098E04906F2EC70EEF13B /* MGNetWorkStatusObserver-prefix.pch */,
+				D7815A0BFF7D265734F64B008F19ECF8 /* MGNetWorkStatusObserver-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MGNetWorkStatusObserver";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDCF0B6B1EE5C5064201BA7A6093744 /* Pods-MGNetWorkStatusObserver_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13BC8D94246C11FFE87CE6822259BDC4 /* Info.plist */,
+				2EE80A4D29E4CECA9AD4D569F546A201 /* Pods-MGNetWorkStatusObserver_Tests.modulemap */,
+				01E5041159AB21EDA19B27CFA9033525 /* Pods-MGNetWorkStatusObserver_Tests-acknowledgements.markdown */,
+				F7566D9407077146EF336FCC8F0B34D7 /* Pods-MGNetWorkStatusObserver_Tests-acknowledgements.plist */,
+				EADCE481C98275D6ADBC1E0001DF7B7C /* Pods-MGNetWorkStatusObserver_Tests-dummy.m */,
+				0E7D90C984072BCF87A9623B7ADE3986 /* Pods-MGNetWorkStatusObserver_Tests-frameworks.sh */,
+				A7050D2EF9CE6B19A378E72C937F47FB /* Pods-MGNetWorkStatusObserver_Tests-resources.sh */,
+				6D967559F66DCAEA44A403E89CAEFD51 /* Pods-MGNetWorkStatusObserver_Tests-umbrella.h */,
+				0E76C171F0FB625233A6DEF5E9BB26AB /* Pods-MGNetWorkStatusObserver_Tests.debug.xcconfig */,
+				7A019CA357EBCE48D283FBB2C5FAC0D6 /* Pods-MGNetWorkStatusObserver_Tests.release.xcconfig */,
+			);
+			name = "Pods-MGNetWorkStatusObserver_Tests";
+			path = "Target Support Files/Pods-MGNetWorkStatusObserver_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EEAC354DB6BB90BE6D0D93CBED5B59EB /* Pods-MGNetWorkStatusObserver_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6A020CABFFB46A1CBB2903CF0F445857 /* Info.plist */,
+				4A0BA61957CAA4FD60438DF5DA274C75 /* Pods-MGNetWorkStatusObserver_Example.modulemap */,
+				34CE94F8A0AE439140AC2AFC8862DB8B /* Pods-MGNetWorkStatusObserver_Example-acknowledgements.markdown */,
+				B192B04B6F5281A163735110E72A29A9 /* Pods-MGNetWorkStatusObserver_Example-acknowledgements.plist */,
+				89D7F217BB969EA5658A22D217D13230 /* Pods-MGNetWorkStatusObserver_Example-dummy.m */,
+				E983F33A28370574037ADB2ECC78B5F3 /* Pods-MGNetWorkStatusObserver_Example-frameworks.sh */,
+				A080714D91BBD2C4C922097E0003F09A /* Pods-MGNetWorkStatusObserver_Example-resources.sh */,
+				487645FC18522C22B96667575162F727 /* Pods-MGNetWorkStatusObserver_Example-umbrella.h */,
+				CFD5429CB45CF842F5EEF90EA13B66E8 /* Pods-MGNetWorkStatusObserver_Example.debug.xcconfig */,
+				B096A73F83A9D1A47C55CC6F537D983C /* Pods-MGNetWorkStatusObserver_Example.release.xcconfig */,
+			);
+			name = "Pods-MGNetWorkStatusObserver_Example";
+			path = "Target Support Files/Pods-MGNetWorkStatusObserver_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		45471417BA49E889CB57EB01D31E4D28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12985EA1F6231A77840BA3092723F72D /* MGNetWorkStatusObserver-umbrella.h in Headers */,
+				66ADC38FC36E74E7F94B321C3F69F828 /* MGNetworkStatusObserver.h in Headers */,
+				D7097DA7E086FD30979DC92250ABF2AB /* MGReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCC53ADEAA3E21FDFB1127DB35E8463 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C59CB58B2937BC89B4FF71D36F476E /* Pods-MGNetWorkStatusObserver_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB991098A9DAFCAC659B1021246696BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF2768B216CB87E918D26C52DA6566B /* Pods-MGNetWorkStatusObserver_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E7012FC0801672A29EF14832E789763 /* MGNetWorkStatusObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E4E2D0F57A8654358E11D8822E0B90 /* Build configuration list for PBXNativeTarget "MGNetWorkStatusObserver" */;
+			buildPhases = (
+				D3CC83BA78688C353A586A323F477B1A /* Sources */,
+				4CCA997D10A89CD382D70E6B1597043D /* Frameworks */,
+				45471417BA49E889CB57EB01D31E4D28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGNetWorkStatusObserver;
+			productName = MGNetWorkStatusObserver;
+			productReference = 3B1ECDFF806F6A76B77AFA1087F36CE1 /* MGNetWorkStatusObserver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CC70CCD3FCA4A7ED7DE6D43000E6EDC /* Pods-MGNetWorkStatusObserver_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3A8A9101C3F300D86DFAB93C34E481 /* Build configuration list for PBXNativeTarget "Pods-MGNetWorkStatusObserver_Tests" */;
+			buildPhases = (
+				09F2E15BA6BC46324CFDCEAE88553741 /* Sources */,
+				A5E347DEF1BCA800EAE507CB6E138787 /* Frameworks */,
+				8FCC53ADEAA3E21FDFB1127DB35E8463 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MGNetWorkStatusObserver_Tests";
+			productName = "Pods-MGNetWorkStatusObserver_Tests";
+			productReference = A3A3219D0FF9FD8E374164FE2B99DB94 /* Pods_MGNetWorkStatusObserver_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D624525CB25FC897931E4AAA2C32746 /* Pods-MGNetWorkStatusObserver_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FB435B7E5AE6A56D51F0E984914991 /* Build configuration list for PBXNativeTarget "Pods-MGNetWorkStatusObserver_Example" */;
+			buildPhases = (
+				ECFAE9F7546D6F21E73CF76919BBF720 /* Sources */,
+				CEAB6D0761C78C3B7CF88FDF73FF749E /* Frameworks */,
+				DB991098A9DAFCAC659B1021246696BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA33A475BB997190007FF4D5AC7A751 /* PBXTargetDependency */,
+			);
+			name = "Pods-MGNetWorkStatusObserver_Example";
+			productName = "Pods-MGNetWorkStatusObserver_Example";
+			productReference = EFC0D9E910D6D72B3891762E2FE6CF4E /* Pods_MGNetWorkStatusObserver_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 14AB9998B3305020B6FD3A628A6AEDC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E7012FC0801672A29EF14832E789763 /* MGNetWorkStatusObserver */,
+				5D624525CB25FC897931E4AAA2C32746 /* Pods-MGNetWorkStatusObserver_Example */,
+				4CC70CCD3FCA4A7ED7DE6D43000E6EDC /* Pods-MGNetWorkStatusObserver_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F2E15BA6BC46324CFDCEAE88553741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABBB9B538486428BC9DEB9B5FDF2528 /* Pods-MGNetWorkStatusObserver_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CC83BA78688C353A586A323F477B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FC475DF05CEF3178DAB4579A98F54E /* MGNetWorkStatusObserver-dummy.m in Sources */,
+				0E020B655659940D9A52D0EB1E970AE7 /* MGNetworkStatusObserver.m in Sources */,
+				844951CACA6B7D859B2ABDB0F41FBFC7 /* MGReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFAE9F7546D6F21E73CF76919BBF720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4CBCAFB159BF8B418AF057DA2FD29C /* Pods-MGNetWorkStatusObserver_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA33A475BB997190007FF4D5AC7A751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGNetWorkStatusObserver;
+			target = 0E7012FC0801672A29EF14832E789763 /* MGNetWorkStatusObserver */;
+			targetProxy = CB3E6486DBC33DCDEB5A1B0402B6CCD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		135BD584CA40AC028BE1DAE8CEC22948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233F90AF9993C00B4F76EE570D78CA39 /* MGNetWorkStatusObserver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGNetWorkStatusObserver/MGNetWorkStatusObserver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGNetWorkStatusObserver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGNetWorkStatusObserver/MGNetWorkStatusObserver.modulemap";
+				PRODUCT_NAME = MGNetWorkStatusObserver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4874AAB49104D75A6859476EC19AEE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233F90AF9993C00B4F76EE570D78CA39 /* MGNetWorkStatusObserver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGNetWorkStatusObserver/MGNetWorkStatusObserver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGNetWorkStatusObserver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGNetWorkStatusObserver/MGNetWorkStatusObserver.modulemap";
+				PRODUCT_NAME = MGNetWorkStatusObserver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DBA5FF582CE4FF0FD844A70E2ACAE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD5429CB45CF842F5EEF90EA13B66E8 /* Pods-MGNetWorkStatusObserver_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGNetWorkStatusObserver_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGNetWorkStatusObserver_Example/Pods-MGNetWorkStatusObserver_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGNetWorkStatusObserver_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7604A03E7C4478EFA78DCD112D2B21D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A019CA357EBCE48D283FBB2C5FAC0D6 /* Pods-MGNetWorkStatusObserver_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGNetWorkStatusObserver_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGNetWorkStatusObserver_Tests/Pods-MGNetWorkStatusObserver_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGNetWorkStatusObserver_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1CE199B9088A6409E4DE5C7F0209EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E76C171F0FB625233A6DEF5E9BB26AB /* Pods-MGNetWorkStatusObserver_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGNetWorkStatusObserver_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGNetWorkStatusObserver_Tests/Pods-MGNetWorkStatusObserver_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGNetWorkStatusObserver_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB4ECFB7B642391335470979E67F8B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B096A73F83A9D1A47C55CC6F537D983C /* Pods-MGNetWorkStatusObserver_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGNetWorkStatusObserver_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGNetWorkStatusObserver_Example/Pods-MGNetWorkStatusObserver_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MGNetWorkStatusObserver_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D3A8A9101C3F300D86DFAB93C34E481 /* Build configuration list for PBXNativeTarget "Pods-MGNetWorkStatusObserver_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CE199B9088A6409E4DE5C7F0209EE1 /* Debug */,
+				7604A03E7C4478EFA78DCD112D2B21D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FB435B7E5AE6A56D51F0E984914991 /* Build configuration list for PBXNativeTarget "Pods-MGNetWorkStatusObserver_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBA5FF582CE4FF0FD844A70E2ACAE64 /* Debug */,
+				FB4ECFB7B642391335470979E67F8B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2E4E2D0F57A8654358E11D8822E0B90 /* Build configuration list for PBXNativeTarget "MGNetWorkStatusObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4874AAB49104D75A6859476EC19AEE5F /* Debug */,
+				135BD584CA40AC028BE1DAE8CEC22948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

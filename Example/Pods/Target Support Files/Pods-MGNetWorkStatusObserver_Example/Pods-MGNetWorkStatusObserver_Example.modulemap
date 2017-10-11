@@ -1,0 +1,6 @@
+framework module Pods_MGNetWorkStatusObserver_Example {
+  umbrella header "Pods-MGNetWorkStatusObserver_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

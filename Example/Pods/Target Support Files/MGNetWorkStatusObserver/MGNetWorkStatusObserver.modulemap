@@ -1,0 +1,6 @@
+framework module MGNetWorkStatusObserver {
+  umbrella header "MGNetWorkStatusObserver-umbrella.h"
+
+  export *
+  module * { export * }
+}
