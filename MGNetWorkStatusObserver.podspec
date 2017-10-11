@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "MGNetWorkStatusObserver"
-  s.version      = "0.1.0"
+  s.version      = "0.2.0"
   s.summary      = "A short description of MGNetWorkStatusObserver."
   s.description  = <<-DESC
 A short description of MGNetWorkStatusObserver.
@@ -10,7 +10,7 @@ A short description of MGNetWorkStatusObserver.
   s.homepage     = "https://github.com/MR-THT/MGNetWorkStatusObserver.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "MR_THT" => "353024989@qq.com" }
+  s.author             = { "MR-THT" => "1096462733@qq.com" }
   s.ios.deployment_target = "7.0"
 
   s.source       = { :git => "https://github.com/MR-THT/MGNetWorkStatusObserver.git", :tag => "#{s.version}" }
