@@ -26,4 +26,4 @@ MR-THT, 1096462733@qq.com
 
 ## License
 
-MGNetworking is available under the MIT license. See the LICENSE file for more info.
+MGNetWorkStatusObserver is available under the MIT license. See the LICENSE file for more info.
